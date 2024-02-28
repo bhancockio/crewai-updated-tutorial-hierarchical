@@ -27,9 +27,14 @@ python main.py
 
 ## Structure
 main.py: The entry point script that initializes the agents and tasks, and forms the AI crew.
+
 agents.py: Defines various agents like the editor, news fetcher, news analyzer, and newsletter compiler.
+
 tasks.py: Contains the task definitions that are used by the agents to perform specific operations.
+
 file_io.py: Manages file input/output operations, crucial for handling the async flow of data.
+
+
 Crew Formation
 The crew is composed of multiple agents and tasks orchestrated to perform complex newsletter automation.
 
