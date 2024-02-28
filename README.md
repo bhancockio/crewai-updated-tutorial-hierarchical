@@ -21,8 +21,6 @@ pip install -r requirements.txt
 ## Usage
 To run the CrewAI tutorial, execute the main script after setting up your environment variables and configuration.
 
-bash
-Copy code
 ``` 
 python main.py
 ```
@@ -35,8 +33,7 @@ file_io.py: Manages file input/output operations, crucial for handling the async
 Crew Formation
 The crew is composed of multiple agents and tasks orchestrated to perform complex newsletter automation.
 
-python
-Copy code
+```
 crew = Crew(
     agents=[editor, news_fetcher, news_analyzer, newsletter_compiler],
     tasks=[fetch_news_task, analyze_news_task, compile_newsletter_task],
@@ -44,6 +41,7 @@ crew = Crew(
     manager=lm=OpenAIGPT4,
     verbose=2
 )
+```
 ## Contributing
 Contributions to the CrewAI Hierarchical Tutorial are welcome. Please feel free to fork the repository, make your changes, and submit a pull request.
 
