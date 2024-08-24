@@ -7,7 +7,7 @@ class AINewsLetterTasks():
         return Task(
             description=f'Fetch top AI news stories from the past 24 hours. The current time is {datetime.now()}.',
             agent=agent,
-            async_execution=True,
+            async_execution=False,
             expected_output="""A list of top AI news story titles, URLs, and a brief summary for each story from the past 24 hours. 
                 Example Output: 
                 [

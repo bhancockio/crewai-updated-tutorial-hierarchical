@@ -12,7 +12,7 @@ class SearchTools():
         """Useful to search the internet
         about a a given topic and return relevant results"""
         print("Searching the internet...")
-        top_result_to_return = 5
+        top_result_to_return = 10
         url = "https://google.serper.dev/search"
         payload = json.dumps(
             {"q": query, "num": top_result_to_return, "tbm": "nws"})
